@@ -1,0 +1,30 @@
+# ============================================================
+# Never commit your .env file — it contains your API keys
+# ============================================================
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# ChromaDB local storage (Day 3)
+chroma_db/
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
